@@ -160,13 +160,13 @@ window.addEventListener("scroll", activeLink);
 // *=============== Animation ===================== //
 const sr = ScrollReveal({
   origin: "top",
-  distance: "80px",
+  distance: "50px",
   duration: 2000,
 });
 
 sr.reveal(".person_image");
 sr.reveal(".person_content", { origin: "bottom" });
-sr.reveal(".head", { origin: "bottom", delay: 100 });
-sr.reveal(".content", { origin: "bottom", delay: 200 });
-sr.reveal(".about-p", { origin: "bottom", delay: 300 });
+sr.reveal(".head", { origin: "bottom", delay: 0 });
+sr.reveal(".content", { origin: "bottom", delay: 0 });
+sr.reveal(".about-p", { origin: "bottom", delay: 0 });
 sr.reveal(".footer", { origin: "left" });
