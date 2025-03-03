@@ -166,7 +166,7 @@ const sr = ScrollReveal({
 
 sr.reveal(".person_image");
 sr.reveal(".person_content", { origin: "bottom" });
-sr.reveal(".head", { origin: "bottom", delay: 0 });
-sr.reveal(".content", { origin: "bottom", delay: 0 });
-sr.reveal(".about-p", { origin: "bottom", delay: 0 });
+sr.reveal(".head", { origin: "bottom" });
+sr.reveal(".content", { origin: "bottom" });
+sr.reveal(".about-p", { origin: "bottom" });
 sr.reveal(".footer", { origin: "left" });
