@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-p-[72px]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="images/mypic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ahmed-Yahya || Portfolio</title>
+</head>
+
+<body>
+    <header id="navbar" class="sticky top-0 z-50 duration-300">
+        <nav class="relative container flex justify-between items-center">
+            <div class="py-5">
+                <a href="#home" class="text-2xl font-bold headerName">Ahmed Yahya</a>
+            </div>
+            <div id="nav-menu" class="hidden absolute top-0 left-0 py-10 w-full bg-primaryColor
+                lg:block lg:static lg:py-0 lg:w-auto lg:ml-auto lg:border-none lg:bg-transparent">
+                <ul class="flex flex-col items-center list-icons text-center gap-8 lg:flex-row lg:gap-5">
+                    <li class=" z-50">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class=" z-50">
+                        <a href="#quality-services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#recent-works" class="nav-link">Works</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="tel:01016142436">
+                            <button class="btn">
+                                <span class="z-10">Hire Me!</span>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+                <div id="nav-close" class="absolute top-6 right-3 md:right-8 text-3xl cursor-pointer text-whiteColor">
+                    <i class="ri-close-line lg:hidden"></i>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <i class="ri-moon-line text-2xl cursor-pointer ml-4" id="theme-toggle"></i>
+                <div id="bars">
+                    <i class="ri-menu-2-line text-2xl lg:hidden cursor-pointer"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="relative py-[34px]">
+            <!-- BLob -->
+            <div class="absolute right-0 top-[-20%] w-80 h-80 bg-primaryColorLight
+            rounded-full blur-[150px] opacity-50"></div>
+            <div class="container">
+                <!-- Content -->
+                <div class="flex items-center gap-5">
+                    <div class="person_content space-y-2 md:w-3/4 xl:w-3/4 lg:w-1/2 text-center md:text-start">
+                        <p>Hello,</p>
+                        <h3 class="text-2xl md:text-3xl font-bold">
+                            I'm Ahmed YahYa
+                        </h3>
+                        <h1>
+                            <span class="title">FrontEnd Developer</span>
+                        </h1>
+                        <div class="relative flex justify-center md:hidden">
+                            <!-- Blob -->
+                            <div class="absolute bottom-0 left-0 w-80 h-80 bg-primaryColorLight
+                            rounded-full blur-[150px] -z-10 opacity-50"></div>
+                            <img src="images/mypic.jpg" mypic.jpgalt="person" class="my-10 max-w-[90%] duration-500 origin-center rotate-[3deg]
+                            border-2 border-primaryColor rounded-[38px] hover:rotate-0
+                            hover:border-primaryColorLight">
+                        </div>
+                        <p class="max-w-xl text-xl pb-5">I specialize in transforming designs into interactive and
+                            engaging web experiences, utilizing the latest technologies to ensure outstanding
+                            performance and a seamless user experience. <br> Contact me to start working together.</p>
+                        <div class="md:flex md:items-center md:gap-5">
+                            <div>
+                                <a target="_blank" href="./Ahmed Yahya Resume.pdf" download="Ahmed-Yahya-Resume">
+                                    <button class="btn-outline font-bold">
+                                        Download Cv <i class="fa-solid fa-download"></i>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-5 md:mt-0 justify-center gap-5">
+                                <div class="social-icon">
+                                    <a href="https://github.com/ahmedyahya01" target="_blank" class="z-10"><i
+                                            class="fa-brands text-2xl z-10 fa-github"></i></a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="https://www.linkedin.com/in/ahmed-yahya-b889b51a0/" target="_blank"
+                                        class="z-10"><i class="fa-brands text-2xl z-10 fa-linkedin"></i></a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="https://wa.me/201016142436?text=Hello,%20how%20can%20I%20help%20you?"
+                                        target="_blank" class="z-10"><i class="fa-brands text-2xl fa-whatsapp"></i></a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="mailto:ahmedlkhateb@gmail.com" target="_blank" class="z-10"><i
+                                            class="fa-solid text-2xl fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- image -->
+                    <div class="person_image relative hidden md:w-1/2 md:flex">
+                        <!-- Blob -->
+                        <div class="absolute bottom-0 left-0 w-80 h-80 bg-primaryColorLight
+                        rounded-full blur-[150px] -z-10 opacity-50"></div>
+                        <img src="images/mypic.jpg" alt="person" class="my-10 lg:max-w-[80%] duration-500 origin-center rotate-[3deg]
+                        border-2 border-primaryColor rounded-[38px] hover:rotate-0
+                        hover:border-primaryColorLight">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-sectionColor dark:bg-darkSectionColor">
+            <div class="container">
+                <div class="head flex flex-col items-center text-center gap-5 mb-10">
+                    <h2 class="subtitle">About Me</h2>
+                </div>
+                <div class="content grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div
+                        class="flex flex-col justify-center text-center items-center border border-primaryColorLight px-28 py-10 rounded-xl gap-2">
+                        <div>
+                            <i class="fa-solid fa-award fa-4x"></i>
+                        </div>
+                        <h3 class="font-bold text-2xl">Experience</h3>
+                        <p class="text-xl">2+ Years</p>
+                        <p class="text-xl">Frontend Development</p>
+                    </div>
+                    <div
+                        class="flex flex-col justify-center text-center items-center border border-primaryColorLight px-28 py-10 rounded-xl gap-2">
+                        <div>
+                            <i class="fa-solid fa-user-graduate fa-4x"></i>
+                        </div>
+                        <h3 class="font-bold text-2xl">Education</h3>
+                        <p class="text-xl">Sh.A _ Mis</p>
+                        <p class="text-xl">Bachelors Degree</p>
+                    </div>
+                </div>
+                <p class="about-p text-center leading-relaxed text-xl lg:w-4/5 mx-auto mt-8">
+                    I am a graduate of El-Shorouk Academy, Class of 2024, from the Management Information Systems
+                    Department, with a Bachelor's degree graded Very Good. I have over two years of experience as a
+                    Frontend Developer, specializing in building responsive and user-friendly web interfaces. I am
+                    committed to continuous learning and staying up-to-date with the latest technologies, ensuring I
+                    deliver innovative solutions that add value to every project I work on.
+                </p>
+            </div>
+        </section>
+        <section id="quality-services">
+            <div class="container">
+                <div class="head flex flex-col items-center text-center gap-5">
+                    <h2 class="subtitle">My Quality Services</h2>
+                    <p class="max-w-2xl">We transform your ideas and desires into a distinctive web
+                        project that inspires both you and your customers.
+                    </p>
+                </div>
+                <!-- List Section -->
+                <div class="my-10">
+                    <!-- item 1 -->
+                    <div class="service-item content">
+                        <div class="flex items-center gap-3 text-xl font-bold md:text-2xl md:w-[40%]">
+                            <p class="text-primaryColorLight duration-300">01</p>
+                            <p class="text-base sm:text-xl">Responsive Web Design</p>
+                        </div>
+                        <div class="ml-auto text-2xl origin-center rotate-45 md:order-last">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="md:max-w-[330px] lg:max-w-md xl:max-w-lg">
+                            <p>Creating websites that look great and work seamlessly across all devices.</p>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="service-item content">
+                        <div class="flex items-center gap-3 text-xl font-bold md:text-2xl md:w-[40%]">
+                            <p class="text-primaryColorLight duration-300">02</p>
+                            <p class="text-base sm:text-xl">Interactive User Interfaces</p>
+                        </div>
+                        <div class="ml-auto text-2xl origin-center rotate-45 md:order-last">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="md:max-w-[330px] lg:max-w-md xl:max-w-lg">
+                            <p>Creating dynamic and engaging UI components for better user experience.</p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="service-item content">
+                        <div class="flex items-center gap-3 text-xl font-bold md:text-2xl md:w-[40%]">
+                            <p class="text-primaryColorLight duration-300">03</p>
+                            <p class="text-base sm:text-xl">Performance Optimization</p>
+                        </div>
+                        <div class="ml-auto text-2xl origin-center rotate-45 md:order-last">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="md:max-w-[330px] lg:max-w-md xl:max-w-lg">
+                            <p>Enhancing website speed and minimizing load times for better performance.</p>
+                        </div>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="service-item content">
+                        <div class="flex items-center gap-3 text-xl font-bold md:text-2xl md:w-[40%]">
+                            <p class="text-primaryColorLight duration-300">04</p>
+                            <p class="text-lg sm:text-xl">API Integration</p>
+                        </div>
+                        <div class="ml-auto text-2xl origin-center rotate-45 md:order-last">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="md:max-w-[330px] lg:max-w-md xl:max-w-lg">
+                            <p>Connecting the frontend with backend APIs for smooth data flow.</p>
+                        </div>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="service-item content">
+                        <div class="flex items-center gap-3 text-xl font-bold md:text-2xl md:w-[40%]">
+                            <p class="text-primaryColorLight duration-300">05</p>
+                            <p class="text-lg sm:text-xl">Website Deployment</p>
+                        </div>
+                        <div class="ml-auto text-2xl origin-center rotate-45 md:order-last">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="md:max-w-[330px] lg:max-w-md xl:max-w-lg">
+                            <p>Ensuring your website is live and accessible to users through efficient deployment
+                                processes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recent-works" class="bg-sectionColor dark:bg-darkSectionColor">
+            <div class="container">
+                <div class="flex head flex-col items-center text-center gap-5">
+                    <h2 class="subtitle">My Recent Works</h2>
+                </div>
+                <div class="relative content md:w-max mx-auto my-10 h-10 text-xs grid grid-cols-4
+                items-center px-[3px] rounded-full bg-sectionColor dark:bg-darkSectionColor
+                border border-primaryColor overflow-hidden transition md:h-12 md:text-base">
+                    <!-- Indicator -->
+                    <div class="indicator absolute h-9 my-auto top-0 left-0 bottom-0
+                    rounded-full bg-primaryColorLight md:h-full"></div>
+
+                    <button class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6 text-whiteColor"
+                        data-tabs="all">All</button>
+
+                    <button class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
+                        data-tabs="designs">Designs</button>
+
+                    <button class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6" data-tabs="js-projects">Js
+                        Projects</button>
+
+                    <button class="tab relative block h-8 px-3 rounded-full md:h-10 md:px-6"
+                        data-tabs="react-projects">React Projects</button>
+                </div>
+                <div class="mt-6 relative rounded-3xl">
+                    <!-- Blob -->
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+                    w-80 h-80 bg-primaryColorLight mix-blend-screen rounded-full blur-[150px] opacity-50 -z-10"></div>
+                    <ul class="grid content grid-cols-1 gap-5 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
+                        <!-- React Projects -->
+                        <li class="work-card react-projects bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <img src="images/FreshCart.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">FreshCart E-Commerce</p>
+                                        <p class="text-sm">React.Js</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://freshcart-ecommerce1.netlify.app/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/FreshCart-E-Commerce" target="_blank"
+                                            class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Js Projects -->
+                        <li class="work-card js-projects bg-whiteColor dark:bg-darkSectionColor border-4
+                                                p-3 rounded-2xl duration-300
+                                                overflow-hidden">
+                            <img src="images/todo.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                                            bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                                            py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">To-Do-List</p>
+                                        <p class="text-sm">Vanilla JavaScript</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                                                    hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/ToDo-List/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/ToDo-List" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                                                hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card js-projects bg-whiteColor dark:bg-darkSectionColor border-4
+                                                p-3 rounded-2xl duration-300
+                                                overflow-hidden">
+                            <img src="images/quiz.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                                            bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                                            py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Quizz App</p>
+                                        <p class="text-sm">Vanilla JavaScript</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                                                    hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Quizz-App/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Quizz-App" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                                                hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card js-projects bg-whiteColor dark:bg-darkSectionColor border-4
+                                                p-3 rounded-2xl duration-300
+                                                overflow-hidden">
+                            <img src="images/gamereview.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                                            bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                                            py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Game Reviews</p>
+                                        <p class="text-sm">Vanilla JavaScript</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                                                    hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Game-Reviews/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Game-Reviews" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                                                hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card js-projects bg-whiteColor dark:bg-darkSectionColor border-4
+                                                p-3 rounded-2xl duration-300
+                                                overflow-hidden">
+                            <img src="images/weatherapp.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                                            bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                                            py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Weather App</p>
+                                        <p class="text-sm">Vanilla JavaScript</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                                                    hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Weather-App/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Weather-App" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                                                hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Designs -->
+                        <li class="work-card designs bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <div class="flex justify-center items-center w-full rounded-t-lg">
+                                <img src="images/portfolio design.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            </div>
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Portfolio Design</p>
+                                        <p class="text-sm">Vanilla Css</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Portfolio/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Portfolio" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card designs bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <div class="flex justify-center items-center w-full rounded-t-lg">
+                                <img src="images/daniels design.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            </div>
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Daniels Design</p>
+                                        <p class="text-sm">Bootstrap Css</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Daniels/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Daniels" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card designs bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <img src="images/Financial design.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Banking Design</p>
+                                        <p class="text-sm">Tailwind Css</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Finance-App/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Finance-App" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card designs bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <img src="images/bondi design.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Bondi Design</p>
+                                        <p class="text-sm">Bootstrap Css</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Bondi/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Bondi" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="work-card designs bg-whiteColor dark:bg-darkSectionColor border-4
+                        p-3 rounded-2xl duration-300
+                        overflow-hidden">
+                            <div class="flex justify-center items-center w-full rounded-t-lg">
+                                <img src="images/mealify design.png" alt="Recent Works" class="w-full rounded-t-lg">
+                            </div>
+                            <div>
+                                <div class="flex flex-col items-center
+                                    bg-gradient-to-r from-primaryColorLight to-primaryColor text-whiteColor
+                                    py-5 rounded-b-lg gap-3">
+                                    <div class="text-center">
+                                        <p class="font-bold text-2xl">Mealify Design</p>
+                                        <p class="text-sm">Vanilla Css</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="border px-3 py-1 rounded-lg bg-darkSectionColor
+                                            hover:bg-opacity-25 duration-300 cursor-pointer"
+                                            href="https://ahmedyahya01.github.io/Mealify/" target="_blank">
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="https://github.com/ahmedyahya01/Mealify" target="_blank" class="border px-7 py-1 rounded-lg bg-darkSectionColor
+                                        hover:bg-opacity-25 duration-300 cursor-pointer">
+                                            <span>Github</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="skills">
+            <div class="flex head justify-center">
+                <h2 class="subtitle">My Skills</h2>
+            </div>
+            <div class="flex flex-wrap justify-center gap-5 md:gap-8 mt-10">
+                <!-- Html icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/html.svg" alt="html" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">HTML5</p>
+                </div>
+                <!-- CSS icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/css.svg" alt="CSS" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">CSS3</p>
+                </div>
+                <!-- Bootstrap icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/bootstrap.svg" alt="Bootstrap" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">BOOTSTRAP</p>
+                </div>
+                <!-- TAILWINDCSS icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/tailwindcss.svg" alt="Tailwind" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">TAILWIND</p>
+                </div>
+                <!-- MATERIAL UI icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/material-ui-1.svg" alt="MATERIAL-UI" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">MATERIAL UI</p>
+                </div>
+                <!-- JAVASCRIPT icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/js.svg" alt="JAVASCRIPT" class="max-w-20">
+                    </div>
+                    <p class="text-xl mt-2">JAVASCRIPT</p>
+                </div>
+                <!-- ES6 icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/ES6.jpg" alt="ES6" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">ECMASCRIPT6</p>
+                </div>
+                <!-- JQUERY icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/jquery-4.svg" alt="JQUERY" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">JQUERY</p>
+                </div>
+                <!-- TYPESCRIPT icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/typescript.svg" alt="TYPESCRIPT" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">TYPESCRIPT</p>
+                </div>
+                <!-- REACT.JS icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/react.svg" alt="REACT.JS" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">REACT.JS</p>
+                </div>
+                <!-- REDUX TOOLKIT icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/redux.svg" alt="REDUX" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">REDUX TOOLKIT</p>
+                </div>
+                <!-- SASS icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/sass-1.svg" alt="SCSS" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">SASS</p>
+                </div>
+                <!-- POSTMAN icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/postman.svg" alt="POSTMAN" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">POSTMAN</p>
+                </div>
+                <!-- GIT/GITHUB icon -->
+                <div class="skills-card content w-full max-w-40 text-center cursor-pointer">
+                    <div class="bg-sectionColor dark:bg-darkSectionColor min-h-40 grid place-items-center
+                    px-4 py-7 rounded-2xl space-y-5 grayscale-[80%] hover:grayscale-0
+                    hover:bg-primaryColor border border-transparent hover:border-primaryColorLight
+                    duration-500">
+                        <img src="images/github-icon.svg" alt="GIT/GITHUB" class="max-w-20 rounded-lg">
+                    </div>
+                    <p class="text-xl mt-2">GIT/GITHUB</p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact" class="bg-sectionColor py-5 dark:bg-darkSectionColor">
+            <div class="container footer flex flex-col xl:flex-row justify-center items-center">
+                <div class="xl:w-1/2 mb-2 xl:mb-0 text-center">
+                    <h2 class="subtitle text-[30px] lg:text-5xl">Let's Work Together!</h2>
+                </div>
+                <div class="flex flex-col md:flex-row gap-10">
+                    <div class="flex items-center flex-col text-center md:flex-row md:text-start gap-2">
+                        <div class="text-white bg-gradient-to-b p-8 from-primaryColor to-primaryColorLight w-10 h-10 rounded-full
+                        flex justify-center items-center">
+                            <i class="fa-solid fa-phone text-3xl"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-xl">Phone</p>
+                            <p>01016142436</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-col text-center md:flex-row md:text-start gap-2">
+                        <div class="text-white bg-gradient-to-b p-8 from-primaryColor to-primaryColorLight w-10 h-10 rounded-full
+                        flex justify-center items-center">
+                            <i class="fa-solid fa-envelope text-3xl"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-xl">Email</p>
+                            <p>ahmedlkhateb@gmail.com</p>
+                        </div>
+                    </div>
+                    <button class="btn">
+                        <a href="https://wa.me/201016142436?text=Hello,%20how%20can%20I%20help%20you?" target="_blank"
+                            class="z-10 flex gap-2 items-center"><i
+                                class="fa-brands text-3xl z-50 fa-whatsapp"></i>Whatsapp</a>
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <div id="scrollUp-btn" class="fixed right-2 cursor-pointer -bottom-1/2 bg-primaryColor w-14 h-14
+        flex justify-center items-center
+        rounded-full text-lg text-whiteColor z-50 hover:-translate-y-1 ease-in duration-500">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
