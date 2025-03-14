@@ -160,17 +160,3 @@ function activeLink() {
   });
 }
 window.addEventListener("scroll", activeLink);
-
-// *=============== Animation ===================== //
-const sr = ScrollReveal({
-  origin: "top",
-  distance: "50px",
-  duration: 2000,
-});
-
-sr.reveal(".person_image");
-sr.reveal(".person_content", { origin: "bottom" });
-sr.reveal(".head", { origin: "bottom" });
-sr.reveal(".content", { origin: "bottom" });
-sr.reveal(".about-p", { origin: "bottom" });
-sr.reveal(".footer", { origin: "left" });
